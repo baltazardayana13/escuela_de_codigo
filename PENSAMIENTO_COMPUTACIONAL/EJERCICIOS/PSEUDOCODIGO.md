@@ -128,5 +128,49 @@ FinAlgoritmo
 6. Programa que pida 3 números y los muestre en pantalla de menor a mayor.
 
 
+Algoritmo MiPrimerAlgoritmo
+	
+		Escribir "ingrese el primer numero"
+		
+		Leer a
+		
+		Escribir "ingrese el segundo numero"
+		
+		Leer b
+		
+		Escribir "ingrese el tercer numero"
+		
+		Leer c
+	
+		
+		Si a<b Entonces
+			Si a<c Entonces
+				Si b<c Entonces
+					Escribir "Los valores ordenados de menor a mayor son",a , b, c
+				SiNo
+					Escribir "Los valores ordenados de menor a mayor son",a , c, b
+				Fin Si
+			SiNo
+				Escribir "Los valores ordenados de menor a mayor son",c , a, b
+			Fin Si
+		SiNo
+			Si a<c Entonces
+				Escribir "Los valores ordenados de menor a mayor son",b,a,c
+			SiNo
+				Si c<b Entonces
+					Escribir "Los valores ordenados de menor a mayor son",c,b,a
+				SiNo
+					Escribir "Los valores ordenados de menor a mayor son",b,c,a
+				Fin Si
+			Fin Si
+		Fin Si
+
+		
+		
+FinAlgoritmo
+
+
 7. Realizar un algoritmo y diagrama de flujo para un programa que permita ingresar un nombre y una cantidad numérica para que así después el programa escriba este nombre tantas veces como su cantidad ingresada.
-8. Realiza un algoritmo y diagrama de flujo de un programa que solicita números al usuario y haga la suma de todos ellos. El algoritmo debe solicitar números siempre y cuando el número ingresado sea positivo, si el usuario ingresa un número no positivo el algoritmo debe terminar e imprimir la suma de los números positivos.
+
+
+9. Realiza un algoritmo y diagrama de flujo de un programa que solicita números al usuario y haga la suma de todos ellos. El algoritmo debe solicitar números siempre y cuando el número ingresado sea positivo, si el usuario ingresa un número no positivo el algoritmo debe terminar e imprimir la suma de los números positivos.
