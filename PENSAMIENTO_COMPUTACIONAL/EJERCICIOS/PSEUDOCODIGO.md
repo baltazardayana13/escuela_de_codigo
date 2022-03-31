@@ -173,4 +173,71 @@ FinAlgoritmo
 7. Realizar un algoritmo y diagrama de flujo para un programa que permita ingresar un nombre y una cantidad numérica para que así después el programa escriba este nombre tantas veces como su cantidad ingresada.
 
 
-9. Realiza un algoritmo y diagrama de flujo de un programa que solicita números al usuario y haga la suma de todos ellos. El algoritmo debe solicitar números siempre y cuando el número ingresado sea positivo, si el usuario ingresa un número no positivo el algoritmo debe terminar e imprimir la suma de los números positivos.
+Algoritmo Repetir_nombre
+
+	Definir nombre Como Caracter;
+	
+	Definir numero_derep Como Entero;
+	
+	Escribir "Ingrese un nombre"
+	
+	Leer nombre
+	
+	Escribir "Ingrese el numero de repeticiones"
+	
+	Leer repeticiones
+	
+	numero_derep=1
+	
+	Mientras numero_derep<=repeticiones Hacer
+	
+		Escribir nombre," "
+		
+		numero_derep=numero_derep+1
+		
+	FinMientras
+	
+	
+FinAlgoritmo
+
+![image](https://user-images.githubusercontent.com/101912013/160952902-cd7a728e-6aeb-40e0-9080-440635d45eef.png)
+
+
+
+8. Realiza un algoritmo y diagrama de flujo de un programa que solicita números al usuario y haga la suma de todos ellos. El algoritmo debe solicitar números siempre y cuando el número ingresado sea positivo, si el usuario ingresa un número no positivo el algoritmo debe terminar e imprimir la suma de los números positivos.
+
+
+Algoritmo MiPrimerAlgoritmo
+	
+	i=0
+
+	Repetir
+		
+		i=i+1
+		
+		Escribir "ingresa un numero", i
+		
+		Leer num
+		
+		Si num>= 0 Entonces
+		
+			suma=suma + num
+			
+		SiNo
+		
+			suma=suma
+			
+		Fin Si
+		
+		
+	Hasta Que num<= 0
+	
+	Escribir suma
+
+FinAlgoritmo
+
+
+![image](https://user-images.githubusercontent.com/101912013/160954120-c0330732-ea3a-485d-9fc0-0339800c15ad.png)
+
+
+
