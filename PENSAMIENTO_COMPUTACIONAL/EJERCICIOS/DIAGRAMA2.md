@@ -85,3 +85,4 @@ Fin Si
 
 FinAlgoritmo
 
+![image](https://user-images.githubusercontent.com/101912013/160971076-7124974c-05d7-41ac-a6fb-ba92f3ce48d2.png)
