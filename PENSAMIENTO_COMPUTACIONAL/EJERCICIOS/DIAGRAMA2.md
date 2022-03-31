@@ -30,4 +30,24 @@ FinAlgoritmo
 
 3. Realizar un algoritmo y diagrama de flujo para un programa que solicite un número e indique si es par o impar.
 
+Algoritmo ParOimpar
+
+Escribir "ingresa un numero"
+
+Leer num
+
+residuo = num MOD 2
+
+
+Si residuo=0 Entonces
+	
+	Escribir "el numero es par"
+	
+SiNo
+	
+	Escribir "El numero es impar"
+	
+Fin Si
+
+FinAlgoritmo
 
