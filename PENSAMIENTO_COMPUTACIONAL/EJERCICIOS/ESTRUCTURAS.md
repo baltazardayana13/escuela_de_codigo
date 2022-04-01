@@ -19,7 +19,49 @@ Algoritmo caracter_sn
 	
 FinAlgoritmo
 
+
+
 * Un programa que pida una letra y detecte si es una vocal. 
+
+
+
+Algoritmo MiPrimerAlgoritmo
+
+Escribir "escribe una letra"
+
+Leer letra
+
+Segun letra Hacer
+
+	"a" O "A":
+
+		Escribir "Es una vocal"
+  
+	"e"O "E":
+
+		Escribir "Es una vocal"
+  
+	"i"O "I":
+
+		Escribir "Es una vocal"
+  
+	"o"O "O":
+
+		Escribir "Es una vocal"
+  
+	"u"O "U":
+
+		Escribir "Es una vocal"
+		
+	De Otro Modo:
+
+		Escribir "No es una vocal"
+  
+Fin Segun
+
+FinAlgoritmo
+
+
 * Programa que pida 3 números y los muestre en pantalla de menor a mayor.  
 * De un programa que pida un número del 1 al 12 y diga el nombre del mes correspondiente.
 * De un programa que permita al usuario elegir un candidato por el cual votar. Las posibilidades son: candidato A por el partido rojo, candidato B por el partido verde, candidato C por el partido azul. Según el candidato elegido (A, B ó C) se le debe imprimir el mensaje “Usted ha votado por el partido [color que corresponda al candidato elegido]”. Si el usuario ingresa una opción que no corresponde a ninguno de los candidatos disponibles, indicar “Opción errónea”.
