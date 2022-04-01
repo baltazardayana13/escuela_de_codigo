@@ -63,6 +63,45 @@ FinAlgoritmo
 
 
 * Programa que pida 3 números y los muestre en pantalla de menor a mayor.  
+
+Algoritmo numerorordenados
+
+	Escribir "ingrese el primer numero"
+	
+	Leer a
+	
+	Escribir "ingrese el segundo numero"
+	
+	Leer b
+	
+	Escribir "ingrese el tercer numero"
+	
+	Leer c
+
+	
+	Si a<b Entonces
+		Si a<c Entonces
+			Si b<c Entonces
+				Escribir "Los valores ordenados de menor a mayor son",a , b, c
+			SiNo
+				Escribir "Los valores ordenados de menor a mayor son",a , c, b
+			Fin Si
+		SiNo
+			Escribir "Los valores ordenados de menor a mayor son",c , a, b
+		Fin Si
+	SiNo
+		Si a<c Entonces
+			Escribir "Los valores ordenados de menor a mayor son",b,a,c
+		SiNo
+			Si c<b Entonces
+				Escribir "Los valores ordenados de menor a mayor son",c,b,a
+			SiNo
+				Escribir "Los valores ordenados de menor a mayor son",b,c,a
+			Fin Si
+		Fin Si
+	Fin Si
+	
+FinAlgoritmo
 * De un programa que pida un número del 1 al 12 y diga el nombre del mes correspondiente.
 * De un programa que permita al usuario elegir un candidato por el cual votar. Las posibilidades son: candidato A por el partido rojo, candidato B por el partido verde, candidato C por el partido azul. Según el candidato elegido (A, B ó C) se le debe imprimir el mensaje “Usted ha votado por el partido [color que corresponda al candidato elegido]”. Si el usuario ingresa una opción que no corresponde a ninguno de los candidatos disponibles, indicar “Opción errónea”.
 
