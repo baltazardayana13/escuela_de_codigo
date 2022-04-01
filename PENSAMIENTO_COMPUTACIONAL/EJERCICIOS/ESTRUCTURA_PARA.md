@@ -55,6 +55,5 @@ Fin Para
 
 FinAlgoritmo
 
-
-
+![image](https://user-images.githubusercontent.com/101912013/161355269-c9a311bd-2b2b-4a90-ae0d-621c83dd0841.png)
 
