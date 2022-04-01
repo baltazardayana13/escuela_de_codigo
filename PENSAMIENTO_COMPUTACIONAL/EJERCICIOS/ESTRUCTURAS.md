@@ -2,6 +2,26 @@
 ## REALIZAR LOS SIGUIENTES RETOS CON SU ALGORITMO Y DIAGRAMA DE FLUJO CORRESPONDIENTE CADA UNO 
 
 * Programa que pida un número y diga si es positivo o negativo
+
+Algoritmo Numero_posoneg
+	
+	
+	Escribir "Por favor escriba un número"
+	
+	Leer num
+	
+	Si num>0 Entonces
+		
+		Escribir "El numero " num " es positivo"
+		
+	SiNo
+		
+		Escribir "El número " num " es negativo"
+		
+	Fin Si
+	
+FinAlgoritmo
+
 * Programa que solicite se ingrese una letra y sólo permita introducir los caracteres s y n.
 
 Algoritmo caracter_sn
@@ -103,6 +123,71 @@ Algoritmo numerorordenados
 	
 FinAlgoritmo
 * De un programa que pida un número del 1 al 12 y diga el nombre del mes correspondiente.
+Algoritmo Mes_numero
+	
+	Escribir "Por favor, introduzca un número del 1 al 12",num
+	
+	Leer num
+	
+	Segun num Hacer
+		
+		1:
+			
+			Escribir "El numero  ",num," corresponde al mes de enero"
+			
+		2:
+			
+			Escribir "El numero  ",num," corresponde al mes de febrero"
+			
+		3:
+			
+			Escribir "El numero  ",num," corresponde al mes de marzo"
+			
+		4:
+			
+			Escribir "El numero  ",num," corresponde al mes de abril"
+			
+		5:
+			
+			Escribir "El numero  ",num, " corresponde al mes de mayo"
+			
+		6:
+			
+			Escribir "El numero  ",num, " corresponde al mes de junio"
+			
+		7:
+			
+			Escribir "El numero  ",num, " corresponde al mes de julio"
+			
+		8:
+			
+			Escribir "El numero  ",num, " corresponde al mes de agosto"
+			
+		9: 
+			
+			Escribir "El numero  ",num, " corresponde al mes de septiembre"
+			
+		10:
+			
+			Escribir "El numero  ",num, " corresponde al mes de octubre"
+			
+		11:
+			
+			Escribir "El numero  ",num, " corresponde al mes de noviembre"
+			
+		12: 
+			
+			Escribir "El numero  ",num, " corresponde al mes de diciembre"
+			
+		De Otro Modo:
+			
+			Escribir "Por favor verifica tu entrada"
+			
+	Fin Segun
+    
+FinAlgoritmo
+
+
 * De un programa que permita al usuario elegir un candidato por el cual votar. Las posibilidades son: candidato A por el partido rojo, candidato B por el partido verde, candidato C por el partido azul. Según el candidato elegido (A, B ó C) se le debe imprimir el mensaje “Usted ha votado por el partido [color que corresponda al candidato elegido]”. Si el usuario ingresa una opción que no corresponde a ninguno de los candidatos disponibles, indicar “Opción errónea”.
 
 Algoritmo votacion
