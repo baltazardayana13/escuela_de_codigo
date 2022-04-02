@@ -28,6 +28,7 @@ Fin Para
 FinAlgoritmo
 
 
+![image](https://user-images.githubusercontent.com/101912013/161355833-bdeebd6d-1882-4833-b46b-2243eddef3f6.png)
 
 
 Realizar algoritmo y diagrama de flujo de un programa que imprima las tablas de multiplicar del 1 al 10.
