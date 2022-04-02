@@ -25,3 +25,26 @@ FinAlgoritmo
 
 Realiza un algoritmo y diagrama de flujo de un programa que solicita números al usuario y haga la suma de todos ellos. El algoritmo debe solicitar números siempre y cuando el número ingresado sea positivo, si el usuario ingresa un número no positivo el algoritmo debe terminar e imprimir la suma de los números positivos.
 
+Algoritmo Montos
+	
+	Repetir
+		Escribir "ingrese su monto"
+		
+		Leer monto
+		
+		Si monto>0 Entonces
+			
+			suma=suma+monto
+			
+		SiNo
+		
+			
+		Fin Si
+		
+	Hasta Que monto<0
+	
+	Escribir "la suma de tus montos es ", suma
+	
+FinAlgoritmo
+
+![image](https://user-images.githubusercontent.com/101912013/161356471-9c73b3c2-1f90-40d7-a379-b5956e079409.png)
