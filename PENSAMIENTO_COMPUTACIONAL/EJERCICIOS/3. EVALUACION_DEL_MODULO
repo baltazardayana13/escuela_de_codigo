@@ -3,5 +3,34 @@ Diseña un algoritmo representándolo en Diagrama de Flujo y Pseudocódigo para 
 y el mensaje REPROBADO en caso contrario, considere además el siguiente requisito adicional que la nota debe cumplir: debe estar dentro del rango 1,0 a 7,0.
 
 
+Algoritmo califunoAsiete
+	
+	Escribir "Por favor ingrese su calificacion"
+  
+	Leer calificacion
+	
+	Si calificacion>= 1 Y calificacion <= 7 Entonces
+  
+		Si calificacion>= 4 Entonces
+    
+			Escribir "APROBADO"
+      
+		SiNo
+    
+			Escribir "REPROBADO"
+      
+		Fin Si
+		
+	SiNo
+  
+		Escribir "Lo siento tu entrada no esta dentro del rango de calificaciones"
+    
+	Fin Si
+  
+FinAlgoritmo
+
+
+
+
 Actividad 2. Programa, usando algoritmo de estructura repetitiva, lo siguiente:
 Diseña un algoritmo representándolo en Diagrama de Flujo y Pseudocódigo para obtener la edad promedio de un grupo de N alumnos.
