@@ -6,37 +6,53 @@ Ingresa al siguiente link para el resumen final
 https://docs.google.com/presentation/d/17LildSvlBpnu-FRpMW1ITRiO21_f3Z0cF9q1Zrs6K5U/edit?usp=sharing
 
 
-Algoritmo adivina
 
+Algoritmo adivina
+	
 	intentos=10
-  
+	
 	num_adivinar = azar(100)+1
     
     
-    Escribir "Adivine el numero:"
+    Escribir "Bienvenido al juego adivine el Adivine el numero ingrese el numero"
     
     Leer num_ingresado
     
-    Mientras num_adivinar<>num_ingresado & intentos > 1 Hacer
-    
-        Si num_adivinar>num_ingresado Entonces
+    Mientras num_adivinar <> num_ingresado & intentos > 1 Hacer
+		
+        Si num_adivinar > num_ingresado Entonces
+			
             Escribir "Es mayor"
         Sino 
+			
             Escribir "Es menor"
+			
         FinSi
+		
         intentos=intentos-1
+		
         Escribir "Quedan ",intentos," intentos:"
+		
         Leer num_ingresado
+		
     FinMientras
     
     Si num_adivinar=num_ingresado Entonces
+		
 		inten_reales=10-intentos
+		
         Escribir "Usted adivino en ",inten_reales," intentos."
+		
     Sino
+		
         Escribir "El numero era: ",num_adivinar
+		
     FinSi
+	
 FinAlgoritmo
 
 
 
-![image](https://user-images.githubusercontent.com/101912013/161191239-3febdad3-4a87-483c-ad29-3fcbb07e0036.png)
+
+![image](https://user-images.githubusercontent.com/101912013/161401993-6f775a63-a254-4b10-a4ae-5bb0a7a91ba8.png)
+
