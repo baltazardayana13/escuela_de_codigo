@@ -2,6 +2,34 @@
 
 Realizar un algoritmo y diagrama de flujo para un programa que permita ingresar un nombre y una cantidad numérica para que así después el programa escriba este nombre tantas veces como su cantidad ingresada.
 
+Algoritmo Repetir_nombre
+	
+Definir nombre Como Caracter;
+
+Definir numero_derep Como Entero;
+
+Escribir "Ingrese un nombre"
+
+Leer nombre
+
+Escribir "Ingrese el numero de repeticiones"
+
+Leer repeticiones
+
+
+
+Para numero_derep<-1 Hasta repeticiones Con Paso 0 Hacer
+	
+	Escribir nombre,numero_derep
+	numero_derep=numero_derep+1
+	
+Fin Para
+
+FinAlgoritmo
+
+
+
+
 Realizar algoritmo y diagrama de flujo de un programa que imprima las tablas de multiplicar del 1 al 10.
 
 Algoritmo tblasmul
